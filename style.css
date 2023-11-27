@@ -1,0 +1,19 @@
+img{
+    border-right: 30px solid lightpink;
+    border-left: 30px solid #ffefd5;
+    border-top: 30px solid skyblue;
+    border-bottom: 30px solid lightgreen;
+}
+
+p > span { color: red; }
+#header span { color: pink; }
+span { color: green; }
+#header *:last-child { color: orange; }
+#header span:first-child:hover { color: blue; }
+
+table{
+    text-align: center;
+    width: 500px;
+    border: 1px solid black;
+    ;
+}
